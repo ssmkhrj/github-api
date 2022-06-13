@@ -1,0 +1,46 @@
+.UserCard {
+  background: white;
+}
+
+.UserCard .header .username {
+  display: block;
+  font-size: 1.75rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.UserCard .header,
+.UserCard .footer {
+  padding: 2rem 3rem;
+}
+
+.UserCard img {
+  width: 7rem;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 0.5rem;
+}
+
+.UserCard .footer {
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem;
+  background: slateblue;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.UserCard .footer .footer-cell {
+  text-align: center;
+}
+
+.UserCard .footer .cell-value {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.UserCard .footer .cell-name {
+  font-size: 0.85rem;
+  color: lavender;
+}
