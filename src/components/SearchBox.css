@@ -1,7 +1,7 @@
 .SearchBox input {
   width: 100%;
   padding: 0.8rem 0.25rem;
-  background: #dedede;
+  background: #e5e7eb;
   border: none;
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
@@ -10,4 +10,18 @@
 
 .SearchBox input:focus {
   outline: none;
+}
+
+.SearchBox {
+  position: relative;
+}
+
+.SearchBox::after {
+  content: "";
+  position: absolute;
+  border: 0.5rem solid transparent;
+  border-bottom: 0.5rem solid white;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }

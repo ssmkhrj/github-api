@@ -9,9 +9,17 @@
   text-align: center;
 }
 
+.UserCard .header .location {
+  font-size: 1.125rem;
+  font-weight: 700;
+  text-align: center;
+  color: #d1d5db;
+}
+
 .UserCard .header,
 .UserCard .footer {
   padding: 2rem 3rem;
+  color: #1e40af;
 }
 
 .UserCard img {
@@ -25,22 +33,22 @@
   display: flex;
   justify-content: center;
   gap: 1.25rem;
-  background: slateblue;
+  background: #1e40af;
   border-bottom-left-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
 }
 
 .UserCard .footer .footer-cell {
   text-align: center;
+  color: #fff;
 }
 
 .UserCard .footer .cell-value {
-  font-size: 1.35rem;
+  font-size: 1.5rem;
   font-weight: 700;
-  color: #fff;
 }
 
 .UserCard .footer .cell-name {
   font-size: 0.85rem;
-  color: lavender;
+  opacity: 0.3;
 }

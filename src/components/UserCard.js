@@ -15,7 +15,9 @@ export default function UserCard() {
           }}
         >
           <strong className="username">Not Found !!!</strong>
-          <p>Couldn't find the user you were looking for.</p>
+          <p style={{ color: "#d1d5db" }}>
+            Couldn't find the user you were looking for.
+          </p>
         </div>
       </div>
     );
@@ -28,6 +30,7 @@ export default function UserCard() {
           <img src={user.avatar_url} alt="profile" />
         </div>
         <strong className="username">{user.name}</strong>
+        <p className="location">{user.location}</p>
       </div>
       <div className="footer">
         <div className="footer-cell">
